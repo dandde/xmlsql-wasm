@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Posts</title>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <a href="/" class="logo">My Blog</a>
+            <ul class="nav-links">
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <article class="post" id="post-1" data-category="technology">
+            <header>
+                <h1 class="post-title">Understanding WebAssembly</h1>
+                <div class="post-meta">
+                    <span class="author">John Doe</span>
+                    <span class="date">2024-01-15</span>
+                    <span class="reading-time" data-minutes="5">5 min read</span>
+                </div>
+            </header>
+            <div class="post-content">
+                <p class="intro">WebAssembly (WASM) is revolutionizing web development by bringing near-native performance to the browser.</p>
+                <p>In this post, we'll explore how WASM works and why it's important for modern web applications.</p>
+            </div>
+            <footer class="post-footer">
+                <div class="tags">
+                    <span class="tag">WebAssembly</span>
+                    <span class="tag">Performance</span>
+                    <span class="tag">Web Development</span>
+                </div>
+            </footer>
+        </article>
+
+        <article class="post" id="post-2" data-category="programming">
+            <header>
+                <h1 class="post-title">Rust for Systems Programming</h1>
+                <div class="post-meta">
+                    <span class="author">Jane Smith</span>
+                    <span class="date">2024-01-20</span>
+                    <span class="reading-time" data-minutes="8">8 min read</span>
+                </div>
+            </header>
+            <div class="post-content">
+                <p class="intro">Rust provides memory safety without garbage collection, making it ideal for systems programming.</p>
+                <p>Let's dive into ownership, borrowing, and lifetimes - the core concepts that make Rust unique.</p>
+            </div>
+            <footer class="post-footer">
+                <div class="tags">
+                    <span class="tag">Rust</span>
+                    <span class="tag">Systems Programming</span>
+                    <span class="tag">Memory Safety</span>
+                </div>
+            </footer>
+        </article>
+
+        <article class="post featured" id="post-3" data-category="tutorial">
+            <header>
+                <h1 class="post-title">Building a Database from Scratch</h1>
+                <div class="post-meta">
+                    <span class="author">Alice Johnson</span>
+                    <span class="date">2024-01-25</span>
+                    <span class="reading-time" data-minutes="15">15 min read</span>
+                </div>
+            </header>
+            <div class="post-content">
+                <p class="intro">Ever wondered how databases work under the hood? This tutorial will guide you through building a simple key-value store.</p>
+                <p>We'll implement basic operations like insert, update, delete, and query using Rust and SQLite.</p>
+            </div>
+            <footer class="post-footer">
+                <div class="tags">
+                    <span class="tag">Database</span>
+                    <span class="tag">Tutorial</span>
+                    <span class="tag">SQLite</span>
+                </div>
+            </footer>
+        </article>
+    </main>
+
+    <aside class="sidebar">
+        <section class="widget" id="recent-posts">
+            <h2>Recent Posts</h2>
+            <ul>
+                <li><a href="#post-3">Building a Database from Scratch</a></li>
+                <li><a href="#post-2">Rust for Systems Programming</a></li>
+                <li><a href="#post-1">Understanding WebAssembly</a></li>
+            </ul>
+        </section>
+
+        <section class="widget" id="categories">
+            <h2>Categories</h2>
+            <ul>
+                <li><a href="/category/technology">Technology</a></li>
+                <li><a href="/category/programming">Programming</a></li>
+                <li><a href="/category/tutorial">Tutorial</a></li>
+            </ul>
+        </section>
+    </aside>
+
+    <footer class="site-footer">
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+        <nav class="footer-nav">
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/terms">Terms of Service</a>
+        </nav>
+    </footer>
+</body>
+</html>

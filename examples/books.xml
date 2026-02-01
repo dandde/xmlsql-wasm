@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book id="1" category="fiction">
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <year>1925</year>
+        <isbn>978-0-7432-7356-5</isbn>
+        <description>A classic American novel set in the Jazz Age</description>
+    </book>
+    <book id="2" category="science">
+        <title>A Brief History of Time</title>
+        <author>Stephen Hawking</author>
+        <year>1988</year>
+        <isbn>978-0-553-38016-3</isbn>
+        <description>An exploration of cosmology and black holes</description>
+    </book>
+    <book id="3" category="fiction">
+        <title>1984</title>
+        <author>George Orwell</author>
+        <year>1949</year>
+        <isbn>978-0-452-28423-4</isbn>
+        <description>A dystopian social science fiction novel</description>
+    </book>
+    <book id="4" category="programming">
+        <title>The Rust Programming Language</title>
+        <author>Steve Klabnik and Carol Nichols</author>
+        <year>2018</year>
+        <isbn>978-1-59327-828-1</isbn>
+        <description>The official book on the Rust programming language</description>
+    </book>
+</library>
